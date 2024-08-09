@@ -24,29 +24,14 @@ body {
     height: auto;
 }
 
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-button.prev {
-    left: 10px;
-}
-
-button.next {
-    right: 10px;
-}
-
 .carousel-image.active {
+    width: 50%;
+    height: auto;
     opacity: 1;
 }
 
 .carousel-image:not(.active) {
+    width: 50%;
+    height: auto;
     opacity: 0;
 }
